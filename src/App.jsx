@@ -12,8 +12,7 @@ function App() {
       <main className="min-h-screen bg-black text-white">
         <Navbar />
 
-        {/* Hero Section */}
-        <Hero />
+        
 
         {/* Safety Map Preview */}
         <section className="relative py-20 overflow-hidden">
@@ -47,6 +46,9 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* Hero Section */}
+        <Hero />
 
         {/* Features */}
         <Features />
