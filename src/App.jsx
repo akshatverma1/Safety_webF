@@ -5,10 +5,14 @@ import Features from "./components/Features"
 import SafetyMap from "./components/SafetyMap"
 import Navbar from "./components/Navbar"
 import { Button } from "./components/button.tsx"
+import{BrowserRouter, Route, Routes} from 'react-router-dom'
+
 
 function App() {
   return (
-    <Router>
+    <>
+   
+    
       <main className="min-h-screen bg-black text-white">
         <Navbar />
 
@@ -53,7 +57,8 @@ function App() {
         {/* Features */}
         <Features />
       </main>
-    </Router>
+  
+    </>
   )
 }
 
