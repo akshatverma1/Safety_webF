@@ -6,6 +6,7 @@ import SafetyMap from "./components/SafetyMap"
 import Navbar from "./components/Navbar"
 import { Button } from "./components/button.tsx"
 import{BrowserRouter, Route, Routes} from 'react-router-dom'
+import WebViewComponent from "./components/Map/web.jsx"
 
 
 function App() {
@@ -57,7 +58,7 @@ function App() {
         {/* Features */}
         <Features />
       </main>
-  
+      <WebViewComponent></WebViewComponent>
     </>
   )
 }

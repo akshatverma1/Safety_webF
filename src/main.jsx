@@ -12,7 +12,8 @@ createRoot(document.getElementById('root')).render(
   // </StrictMode>,
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App></App>}></Route>
+      <Route path='/home' element={<App></App>}></Route>
+      <Route path='/webview' element={<Webview></Webview>}></Route>
     </Routes>
   </BrowserRouter>
 );
