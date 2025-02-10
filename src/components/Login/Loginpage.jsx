@@ -15,7 +15,7 @@ export default function Login() {
             </Link>
           </p>
         </div>
-        <form className="mt-8 space-y-6" action="#" method="POST">
+        <form className="mt-8 space-y-6" action="http://localhost:1000/login" method="POST">
           <input type="hidden" name="remember" defaultValue="true" />
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
@@ -24,8 +24,8 @@ export default function Login() {
               </label>
               <input
                 id="email-address"
-                name="email"
-                type="email"
+                name="mobileReq"
+                type="number"
                 autoComplete="email"
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-700 placeholder-gray-500 text-white bg-gray-900 rounded-t-md focus:outline-none focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm"
@@ -38,7 +38,7 @@ export default function Login() {
               </label>
               <input
                 id="password"
-                name="password"
+                name="passwordReq"
                 type="password"
                 autoComplete="current-password"
                 required
