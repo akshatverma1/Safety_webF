@@ -20,7 +20,7 @@ export default function Login() {
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
               <label htmlFor="email-address" className="sr-only">
-                Email address
+                Mobile Number
               </label>
               <input
                 id="email-address"
@@ -29,7 +29,7 @@ export default function Login() {
                 autoComplete="email"
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-700 placeholder-gray-500 text-white bg-gray-900 rounded-t-md focus:outline-none focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm"
-                placeholder="Email address"
+                placeholder="Mobile Number"
               />
             </div>
             <div>

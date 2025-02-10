@@ -58,7 +58,7 @@ function App() {
         {/* Features */}
         <Features />
       </main>
-      <WebViewComponent></WebViewComponent>
+      {/* <WebViewComponent></WebViewComponent> */}
     </>
   )
 }

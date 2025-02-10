@@ -14,22 +14,26 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="#features" className="text-gray-300 hover:text-white transition-colors">
+            <Link to="/features" className="text-gray-300 hover:text-white transition-colors">
               Features
             </Link>
-            <Link to="#about" className="text-gray-300 hover:text-white transition-colors">
+            <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
               About
             </Link>
-            <Link to="#contact" className="text-gray-300 hover:text-white transition-colors">
+            <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
               Contact
             </Link>
           </div>
 
           <div className="flex items-center space-x-4">
+            <form action={"/login"} method="get">
             <Button variant="ghost" className="text-gray-300 hover:text-white">
               Sign In
-            </Button> 
-            <Button className="bg-purple-600 hover:bg-purple-700">Get Started</Button> 
+            </Button>
+            </form> 
+            <form action={"/signup"} method="get">
+            <Button className="bg-purple-600 hover:bg-purple-700">Get Started</Button>
+            </form> 
           </div>
         </div>
       </div>

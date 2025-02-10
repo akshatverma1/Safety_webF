@@ -15,7 +15,7 @@ export default function SignUp() {
             </Link>
           </p>
         </div>
-        <form className="mt-8 space-y-6" action="#" method="POST">
+        <form className="mt-8 space-y-6" action="http://localhost:1000/signup" method="POST">
           <input type="hidden" name="remember" defaultValue="true" />
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
@@ -24,7 +24,7 @@ export default function SignUp() {
               </label>
               <input
                 id="Name"
-                name="Name"
+                name="nameReq"
                 type="text"
                 autoComplete="Name"
                 required
@@ -38,7 +38,7 @@ export default function SignUp() {
               </label>
               <input
                 id="Mobileno"
-                name="Mobileno"
+                name="mobileReq"
                 type="Mobileno"
                 autoComplete="Mobileno"
                 required
@@ -52,7 +52,7 @@ export default function SignUp() {
               </label>
               <input
                 id="Emergency"
-                name="Emergency"
+                name="emergencyReq"
                 type="number"
                 autoComplete="Emergency"
                 required
@@ -66,7 +66,7 @@ export default function SignUp() {
               </label>
               <input
                 id="password"
-                name="password"
+                name="passwordReq"
                 type="password"
                 autoComplete="new-password"
                 required
