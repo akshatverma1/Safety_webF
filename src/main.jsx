@@ -10,6 +10,7 @@ import SignUp from './components/Signup/Signuppage.jsx'
 import Contactpage from './components/Contact/Contactpage.jsx'
 import Featurespage from './components/Features/Featurespage.jsx'
 import Aboutpage from './components/About/Aboutpage.jsx'
+import HomePage from './Homepage.jsx'
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/contact' element={<Contactpage></Contactpage>}></Route>
       <Route path="/features" element={<Featurespage></Featurespage>}></Route>
       <Route path='/about' element={<Aboutpage></Aboutpage>}></Route>
+      <Route path='homepage' element={<HomePage></HomePage>}></Route>
     </Routes>
   </BrowserRouter>
 );
