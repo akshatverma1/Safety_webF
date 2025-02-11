@@ -5,9 +5,9 @@ function WebViewComponent() {
   const mobileno = 'tel:+919131822366';
   return (
     <>
-    <div>
+    {/* <div>
       <a href={mobileno}>call now</a>
-    </div>
+    </div> */}
     <div style={{ height: '500px', width: '100%' }}>
       <iframe
       allow="geolocation"
