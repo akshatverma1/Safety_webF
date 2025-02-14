@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Shield } from "lucide-react"
-import {Button} from "./button.tsx"
+import { Button } from "./button.tsx"
 
 
 export default function Navbar() {
@@ -26,14 +26,14 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <form action={"/login"} method="get">
-            <Button variant="ghost" className="text-gray-300 hover:text-white">
-              Sign In
-            </Button>
-            </form> 
-            <form action={"/signup"} method="get">
-            <Button className="bg-purple-600 hover:bg-purple-700">Get Started</Button>
-            </form> 
+            <Link to={"/login"}>
+              <Button variant="ghost" className="text-gray-300 hover:text-white">
+                Sign In
+              </Button>
+            </Link>
+            <Link to={"/signup"}>
+              <Button className="bg-purple-600 hover:bg-purple-700">Get Started</Button>
+            </Link>
           </div>
         </div>
       </div>
