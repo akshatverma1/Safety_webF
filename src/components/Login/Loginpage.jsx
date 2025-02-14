@@ -15,7 +15,7 @@ export default function Login() {
             </Link>
           </p>
         </div>
-        <form className="mt-8 space-y-6" action="http://localhost:1000/login" method="post">
+        <form className="mt-8 space-y-6" action="https://safety-web-application-nu.vercel.app/login" method="post">
           {/* <input type="hidden" name="remember" defaultValue="true" /> */}
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
