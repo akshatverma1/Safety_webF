@@ -13,7 +13,7 @@ function WebViewComponent() {
       allow="geolocation"
         src="http://localhost:1000"
         title="WebView Example"
-        style={{ height: '100%', width: '100%', border: 'none' }}
+        // style={{ height: '100%', width: '100%', border: 'none' }}
       />
     </div>
     </>

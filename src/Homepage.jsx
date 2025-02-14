@@ -46,7 +46,7 @@ export default function HomePage() {
               <SafetyMap />
             </div>
           </div>
-          {/* <div>
+          <div>
             <h2 className="text-2xl font-bold mb-4">Family Members</h2>
             <div className="bg-gray-900 rounded-lg shadow-lg p-4">
               {familyMembers.map((member) => (
@@ -68,7 +68,7 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-          </div>  */}
+          </div> 
         </div>
       </main>
     </div>
