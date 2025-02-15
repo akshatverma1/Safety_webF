@@ -11,6 +11,7 @@ import Contactpage from './components/Contact/Contactpage.jsx'
 import Featurespage from './components/Features/Featurespage.jsx'
 import Aboutpage from './components/About/Aboutpage.jsx'
 import HomePage from './Homepage.jsx'
+import Dashboard from './components/Dash.jsx'
 // import SuccessfulSignup from './components/Signup/Successignup.jsx'
 // import SuccessfulLogin from './components/Login/Successloginpage.jsx'
 // import Dashboard from './components/Dashboard/Dashboard.jsx'
@@ -36,6 +37,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/slogin' element={<SuccessfulLogin></SuccessfulLogin>}></Route> */}
       {/* <Route path='/loginfailed' element={<LoginFailed></LoginFailed>}></Route>
       <Route path='/signupfailed' element={<SignupFailed></SignupFailed>}></Route> */}
+      <Route path='dash' element={<Dashboard></Dashboard>}></Route>
     </Routes>
   </BrowserRouter>
 );
