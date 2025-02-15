@@ -19,7 +19,6 @@
     "react-dom": "^19.0.0",
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.1.5",
-    "react-spring": "^9.7.5",
     "safetyvite": "file:",
     "tailwind-merge": "^3.0.1"
   },
