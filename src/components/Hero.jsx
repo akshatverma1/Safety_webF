@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 relative z-10">
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-              Safeguarding
+            Suraksha
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
                 people where
               </span>

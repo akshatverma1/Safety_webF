@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
             <Shield className="w-8 h-8 text-purple-500" />
-            <span className="text-xl font-bold">SafeGuard</span>
+            <span className="text-xl font-bold">Suraksha</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
