@@ -34,7 +34,6 @@ createRoot(document.getElementById('root')).render(
       <Route path='homepage' element={<HomePage></HomePage>}></Route>
       <Route path='/ssign' element={<SuccessfulSignup></SuccessfulSignup>}></Route>
       <Route path='/slogin' element={<SuccessfulLogin></SuccessfulLogin>}></Route>
-      {/* <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route> */}
       <Route path='/loginfailed' element={<LoginFailed></LoginFailed>}></Route>
       <Route path='/signupfailed' element={<SignupFailed></SignupFailed>}></Route>
     </Routes>
