@@ -11,11 +11,11 @@ import Contactpage from './components/Contact/Contactpage.jsx'
 import Featurespage from './components/Features/Featurespage.jsx'
 import Aboutpage from './components/About/Aboutpage.jsx'
 import HomePage from './Homepage.jsx'
-import SuccessfulSignup from './components/Signup/Successignup.jsx'
-import SuccessfulLogin from './components/Login/Successloginpage.jsx'
+// import SuccessfulSignup from './components/Signup/Successignup.jsx'
+// import SuccessfulLogin from './components/Login/Successloginpage.jsx'
 // import Dashboard from './components/Dashboard/Dashboard.jsx'
-import LoginFailed from './components/Login/Loginfailed.jsx'
-import SignupFailed from './components/Signup/Signupfailed.jsx'
+// import LoginFailed from './components/Login/Loginfailed.jsx'
+// import SignupFailed from './components/Signup/Signupfailed.jsx'
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
@@ -32,10 +32,10 @@ createRoot(document.getElementById('root')).render(
       <Route path="/features" element={<Featurespage></Featurespage>}></Route>
       <Route path='/about' element={<Aboutpage></Aboutpage>}></Route>
       <Route path='homepage' element={<HomePage></HomePage>}></Route>
-      <Route path='/ssign' element={<SuccessfulSignup></SuccessfulSignup>}></Route>
-      <Route path='/slogin' element={<SuccessfulLogin></SuccessfulLogin>}></Route>
-      <Route path='/loginfailed' element={<LoginFailed></LoginFailed>}></Route>
-      <Route path='/signupfailed' element={<SignupFailed></SignupFailed>}></Route>
+      {/* <Route path='/ssign' element={<SuccessfulSignup></SuccessfulSignup>}></Route>
+      <Route path='/slogin' element={<SuccessfulLogin></SuccessfulLogin>}></Route> */}
+      {/* <Route path='/loginfailed' element={<LoginFailed></LoginFailed>}></Route>
+      <Route path='/signupfailed' element={<SignupFailed></SignupFailed>}></Route> */}
     </Routes>
   </BrowserRouter>
 );
