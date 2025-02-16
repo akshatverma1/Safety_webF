@@ -23,7 +23,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
-                Download App
+                Get Started
               </Button>
               <Button size="lg" variant="outline" className="border-purple-600 text-purple-400 hover:bg-purple-600/10">
                 Learn More
