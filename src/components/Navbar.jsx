@@ -31,9 +31,11 @@ export default function Navbar() {
                 Sign In
               </Button>
             </Link>
-            <Link to={"/signup"}>
+            <form method ="GET" action={"https://safety-web-application-nu.vercel.app/"}>
+            {/* <Link to={"/signup"}> */}
               <Button className="bg-purple-600 hover:bg-purple-700">Get Started</Button>
-            </Link>
+            {/* </Link> */}
+            </form>
           </div>
         </div>
       </div>

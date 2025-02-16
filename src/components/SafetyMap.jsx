@@ -14,7 +14,13 @@ const customIcon = new Icon({
 })
 
 export default function SafetyMap() {
-  const [position, setPosition] = useState([51.505, -0.09])
+  if(navigator.geolocation){
+    navigator.geolocation.watchPosition((position)=>{
+      const {latitude, longitude} = position.coords;
+      setPosition([latitude, longitude]);
+    })
+  }
+  const [position, setPosition] = useState([22, 72])
 
   useEffect(() => {
     if ("geolocation" in navigator) {
@@ -28,7 +34,7 @@ export default function SafetyMap() {
     <div className="relative rounded-3xl overflow-hidden shadow-2xl">
       <MapContainer
         center={position}
-        zoom={13}
+        zoom={10}
         className="w-full h-[500px] rounded-3xl [&_.leaflet-tile-pane]:brightness-[0.7] [&_.leaflet-tile-pane]:saturate-[0.3]"
       >
         <TileLayer
