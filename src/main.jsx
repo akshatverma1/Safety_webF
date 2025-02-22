@@ -12,6 +12,8 @@ import Featurespage from './components/Features/Featurespage.jsx'
 import Aboutpage from './components/About/Aboutpage.jsx'
 import HomePage from './Homepage.jsx'
 import Dashboard from './components/Dash.jsx'
+import ImageDetectionApp from './components/Iot/iot.jsx'
+import IotProjectPage from './components/Iot/page.jsx'
 // import SuccessfulSignup from './components/Signup/Successignup.jsx'
 // import SuccessfulLogin from './components/Login/Successloginpage.jsx'
 // import Dashboard from './components/Dashboard/Dashboard.jsx'
@@ -38,6 +40,8 @@ createRoot(document.getElementById('root')).render(
       {/* <Route path='/loginfailed' element={<LoginFailed></LoginFailed>}></Route>
       <Route path='/signupfailed' element={<SignupFailed></SignupFailed>}></Route> */}
       <Route path='dash' element={<Dashboard></Dashboard>}></Route>
+      <Route path='/iot' element={<ImageDetectionApp></ImageDetectionApp>}></Route>
+      <Route path='/iotp'element={<IotProjectPage></IotProjectPage>}></Route>
     </Routes>
   </BrowserRouter>
 );
