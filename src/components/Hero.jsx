@@ -1,6 +1,6 @@
 import { Button } from "./button.tsx"
 import { Shield, MapPin, Bell } from "lucide-react"
-
+import { Link } from "react-router-dom"
 export default function Hero() {
   return (
     <section className="pt-32 pb-20 relative overflow-hidden">
@@ -22,9 +22,11 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4">
+              <Link to="/iots">
               <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
-                Get Started
+                IOT
               </Button>
+              </Link>
               <Button size="lg" variant="outline" className="border-purple-600 text-purple-400 hover:bg-purple-600/10">
                 Learn More
               </Button>
