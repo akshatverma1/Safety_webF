@@ -27,9 +27,11 @@ export default function Hero() {
                 IOT
               </Button>
               </Link>
+              <form action="https://safety-web-application-nu.vercel.app/iot" method="get">
               <Button size="lg" variant="outline" className="border-purple-600 text-purple-400 hover:bg-purple-600/10">
                 Learn More
               </Button>
+              </form>
             </div>
 
             <div className="grid grid-cols-3 gap-6 pt-8">
